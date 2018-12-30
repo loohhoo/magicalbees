@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bees!</title>
+<script src="jquery.js"></script>
+<script src="scripts.js"></script>
+<style>
+img {
+	border: 1px solid black;
+	width: 16px;
+	height: 16px;
+	padding: 4px;
+	margin: 10px;
+	vertical-align:middle
+}
+
+span {
+	vertical-align:middle;
+}
+
+body {
+	background-color: #303030;
+}
+
+body * {
+	font-family: Tahoma;
+	font-weight: bold;
+	color: white;
+	text-shadow: 1px 3px 3px #2D2D2D;
+	text-transform: uppercase;
+}
+
+button {
+	background-color: #3F3F3F;
+	color: white;
+	border: 1px solid #2D2D2D;
+	box-shadow: 0px 0px 1px #8C8C8C;
+	padding: 6px;
+	margin: 3px;
+	text-shadow: 1px 3px 3px #2D2D2D;
+	text-transform: uppercase;
+}
+</style>
+</head>
+<body>
+	<input id="bee1">
+	<input id="bee2">
+	<button id="breed">Breed!</button>
+	<button id="inventory">Inventory</button>
+	<button id="spellbook">Spellbook</button>
+	<button id="effects">Effects</button>
+	<button id="player">Your Stats</button>
+	<p id="moon"><span class="phase" title="The moon has 4 phases that last 15 minutes each - new, waxing, full, and waning. This determines the efficacy of most spells."></span> | <span class="sign" title="The moon cycles through 12 signs, lasting an hour each. The player's sign is determined by the hour that they begin the game, as are bees when bred."></span></p>
+	<div id="output">
+	</div>
+	<div id="stats">
+	</div>
+</body>
+</html>
